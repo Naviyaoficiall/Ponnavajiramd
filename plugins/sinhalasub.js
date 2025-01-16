@@ -25,7 +25,7 @@ cmd({
 async (conn, m, mek, { from, q, isDev, reply }) => {
 try{
 
- if ( !isDev ) return reply('⚠️ ⚠️ *Contact owner to Active your number To Premium user*')
+ 
         if(!q) return await reply('*please give me text !..*')
 	const url = `https://sinhalasub.lk/?s=${q}`
      const response = await axios.get(url);
@@ -78,7 +78,7 @@ cmd({
 },
 async (conn, m, mek, { from, q, isDev, reply }) => {
 try{
-	if ( !isDev ) return reply('⚠️ ⚠️ *Contact owner to Active your number To Premium user*')
+
         if(!q) return await reply('*please give me text !..*')
 	const url = `https://sinhalasub.lk/?s=${q}`
      const response = await axios.get(url);
@@ -151,7 +151,7 @@ cmd({
     filename: __filename
 },
     async ( conn, mek, m, { reply, q, isDev, l, prefix, from }) => {
-	 if ( !isDev ) return reply('⚠️ ⚠️ *Contact owner to Active your number To Premium user*')   
+
 	    try {
 		    if (!q) return await reply("please give me text !..")
                     const response = await axios.get(q);
@@ -539,7 +539,7 @@ cmd({
 },
 async (conn, m, mek, { from, q, isDev, reply }) => {
 try{
-	if ( !isDev ) return reply('⚠️ ⚠️ *Contact owner to Active your number To Premium user*')
+	
         if(!q) return await reply('*please give me text !..*')
 	const url = `https://sinhalasub.lk/?s=${q}`
      const response = await axios.get(url);
